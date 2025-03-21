@@ -39,3 +39,15 @@ Each article is labeled accordingly and preprocessed before training:
 - Lowercased text
 - Tokenization and stopword removal
 - Optional stemming for traditional models
+
+
+## 🚀 Models & Performance
+
+### 📊 Evaluation Report for Naive Bayes
+
+- **Accuracy:** 94.19%
+- **Precision:** 93.00%
+- **Recall:** 94.92%
+- **F1 Score:** 93.95%
+
+
