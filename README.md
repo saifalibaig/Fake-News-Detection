@@ -23,3 +23,19 @@ Make sure to install the following libraries before running the notebook:
 
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn keras tensorflow
+
+```
+
+## 📂 Dataset
+
+**Dataset used:** [Fake and Real News Dataset on Kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
+
+It contains two CSV files:
+- `Fake.csv`
+- `True.csv`
+
+Each article is labeled accordingly and preprocessed before training:
+- HTML tags and punctuation removed
+- Lowercased text
+- Tokenization and stopword removal
+- Optional stemming for traditional models
