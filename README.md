@@ -1,4 +1,4 @@
-#📰 Fake News Detection System
+📰 Fake News Detection System
 
 This project implements a robust **Fake News Detection** system using three machine learning models: **Naive Bayes**, **Random Forest**, and **LSTM**. The system classifies news articles as **Fake** or **Real** based on their textual content.
 
