@@ -26,6 +26,8 @@ pip install pandas numpy scikit-learn matplotlib seaborn keras tensorflow
 
 ```
 
+---
+
 ## 📂 Dataset
 
 **Dataset used:** [Fake and Real News Dataset on Kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
@@ -40,6 +42,7 @@ Each article is labeled accordingly and preprocessed before training:
 - Tokenization and stopword removal
 - Optional stemming for traditional models
 
+---
 
 ## 🚀 Models & Performance
 
@@ -51,3 +54,30 @@ Each article is labeled accordingly and preprocessed before training:
 - **F1 Score:** 93.95%
 
 
+### 📊 Evaluation Report for Random Forest ✅ *Best*
+
+- **Accuracy:** 99.77%
+- **Precision:** 99.72%
+- **Recall:** 99.79%
+- **F1 Score:** 99.75%
+
+
+### 📊 Evaluation Report for LSTM
+
+- **Accuracy:** 99.3%
+- **Precision:** 99.44%
+- **Recall:** 99.09%
+- **F1 Score:** 99.26%
+
+
+---
+
+## 📁 Files Included
+
+- `Fake_News_Detection.ipynb` – Jupyter Notebook containing:
+  - Data Preprocessing
+  - Model Training (Naive Bayes, Random Forest, LSTM)
+  - Evaluation Metrics
+  - Visualization & Testing Interface
+
+- `Fake.csv`, `True.csv` – Dataset files *(must be downloaded separately from [Kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset))*
